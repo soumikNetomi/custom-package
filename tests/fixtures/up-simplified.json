@@ -1,0 +1,805 @@
+[
+  {
+    "user": {
+      "id": 5,
+      "orgId": 1,
+      "firstName": "Passport",
+      "lastName": "OrgAdmin",
+      "email": "passport.orgadmin@netomi.com",
+      "uuid": "70a1e848-adab-11ee-b19d-02f93e00b40b",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 2,
+        "name": "Studio Org Admin"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 6,
+      "orgId": 1,
+      "firstName": "Passport",
+      "lastName": "Support",
+      "email": "passport.support@netomi.com",
+      "uuid": "72c79039-adab-11ee-b19d-02f93e00b40b",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 3,
+        "name": "Studio Netomi Support Role"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 7,
+      "orgId": 1,
+      "firstName": "Passport",
+      "lastName": "Observer",
+      "email": "passport.observer@netomi.com",
+      "uuid": "6d61f06c-adab-11ee-b19d-02f93e00b40b",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 6,
+        "name": "Studio AI Agent Observer"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 8,
+      "orgId": 1,
+      "firstName": "Passport",
+      "lastName": "BotAdmin",
+      "email": "passport.botadmin@netomi.com",
+      "uuid": "77055adf-adab-11ee-b19d-02f93e00b40b",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 4,
+        "name": "Studio AI Agent Admin"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 9,
+      "orgId": 1,
+      "firstName": "Passport",
+      "lastName": "Analyst",
+      "email": "passport.analyst@netomi.com",
+      "uuid": "7862684f-adab-11ee-b19d-02f93e00b40b",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 5,
+        "name": "Studio AI Agent Analyst"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 13,
+      "orgId": 1,
+      "firstName": "Rishabh",
+      "lastName": "Kumar",
+      "email": "rishabh.kumar@netomi.com",
+      "uuid": "36d6a3e0-060a-11ee-a62a-fd36c6a753f1",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 5,
+        "name": "Studio AI Agent Analyst"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 18,
+      "orgId": 30,
+      "firstName": "Acme",
+      "lastName": "OrgAdmin",
+      "email": "acme.orgadmin@acme.com",
+      "uuid": "42def273-c6db-11ee-8e48-02089b0ca177",
+      "active": 1
+    },
+    "org": {
+      "id": 30,
+      "name": "Acme",
+      "type": "Client",
+      "settings": {
+        "logoUrl": "http://acme.netomi.com/logo.svg",
+        "approvedDomains": [
+          "acme.com",
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 2,
+        "name": "Studio Org Admin"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 19,
+      "orgId": 30,
+      "firstName": "Acme",
+      "lastName": "BotAdmin",
+      "email": "acme.botadmin@acme.com",
+      "uuid": "efaa43a0-c6d9-11ee-935d-69abaf84e59d",
+      "active": 1
+    },
+    "org": {
+      "id": 30,
+      "name": "Acme",
+      "type": "Client",
+      "settings": {
+        "logoUrl": "http://acme.netomi.com/logo.svg",
+        "approvedDomains": [
+          "acme.com",
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 4,
+        "name": "Studio AI Agent Admin"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 20,
+      "orgId": 1,
+      "firstName": "Studio",
+      "lastName": "Netomi1",
+      "email": "studio@netomi.com",
+      "uuid": "fgb48fb0-d00b-4714-a568-c7903b930101",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 2,
+        "name": "Studio Org Admin"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 21,
+      "orgId": 1,
+      "firstName": "Test",
+      "lastName": "User102",
+      "email": "test102@netomi.com",
+      "uuid": "",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 4,
+        "name": "Studio AI Agent Admin"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 22,
+      "orgId": 1,
+      "firstName": "Test",
+      "lastName": "User103",
+      "email": "test103@netomi.com",
+      "uuid": "",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 4,
+        "name": "Studio AI Agent Admin"
+      },
+      {
+        "id": 6,
+        "name": "Studio AI Agent Observer"
+      },
+      {
+        "id": 5,
+        "name": "Studio AI Agent Analyst"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 23,
+      "orgId": 1,
+      "firstName": "Test",
+      "lastName": "User-105",
+      "email": "test104@netomi.com",
+      "uuid": "",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 4,
+        "name": "Studio AI Agent Admin"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 24,
+      "orgId": 1,
+      "firstName": "Test",
+      "lastName": "User-106",
+      "email": "test106@netomi.com",
+      "uuid": "",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 6,
+        "name": "Studio AI Agent Observer"
+      },
+      {
+        "id": 5,
+        "name": "Studio AI Agent Analyst"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 25,
+      "orgId": 1,
+      "firstName": "Test",
+      "lastName": "User-107",
+      "email": "test107@netomi.com",
+      "uuid": "",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 6,
+        "name": "Studio AI Agent Observer"
+      },
+      {
+        "id": 4,
+        "name": "Studio AI Agent Admin"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 26,
+      "orgId": 1,
+      "firstName": "single",
+      "lastName": "call",
+      "email": "newt@netomi.com",
+      "uuid": null,
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 5,
+        "name": "Studio AI Agent Analyst"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 27,
+      "orgId": 1,
+      "firstName": "test3",
+      "lastName": "user3",
+      "email": "test3@netomi.com",
+      "uuid": "90256df0-b613-11ee-8a9e-cf8f6076963e",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 5,
+        "name": "Studio AI Agent Analyst"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 28,
+      "orgId": 1,
+      "firstName": "test11",
+      "lastName": "user11",
+      "email": "test11@netomi.com",
+      "uuid": "564c7060-b690-11ee-b56f-d556aae99f74",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 5,
+        "name": "Studio AI Agent Analyst"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 29,
+      "orgId": 1,
+      "firstName": "test12",
+      "lastName": "user12",
+      "email": "test12@netomi.com",
+      "uuid": "248f0550-b691-11ee-b56f-d556aae99f74",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 5,
+        "name": "Studio AI Agent Analyst"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 30,
+      "orgId": 1,
+      "firstName": "test13",
+      "lastName": "user13",
+      "email": "test13@netomi.com",
+      "uuid": "58cca0b0-b692-11ee-b56f-d556aae99f74",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 5,
+        "name": "Studio AI Agent Analyst"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 31,
+      "orgId": 1,
+      "firstName": "test14",
+      "lastName": "user14",
+      "email": "test14@netomi.com",
+      "uuid": "f9521290-b692-11ee-b41c-b9e18773e402",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 6,
+        "name": "Studio AI Agent Observer"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 32,
+      "orgId": 1,
+      "firstName": "test16",
+      "lastName": "user16",
+      "email": "test16@netomi.com",
+      "uuid": "8e1b8f90-b694-11ee-b41c-b9e18773e402",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 6,
+        "name": "Studio AI Agent Observer"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 33,
+      "orgId": 1,
+      "firstName": "test17",
+      "lastName": "user17",
+      "email": "test17@netomi.com",
+      "uuid": "2c93cc50-b695-11ee-b41c-b9e18773e402",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 5,
+        "name": "Studio AI Agent Analyst"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 34,
+      "orgId": 1,
+      "firstName": "test20",
+      "lastName": "user20",
+      "email": "test20@netomi.com",
+      "uuid": "02101dd0-b69f-11ee-9258-4f3d69f5bf63",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 6,
+        "name": "Studio AI Agent Observer"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 35,
+      "orgId": 1,
+      "firstName": "test202",
+      "lastName": "user202",
+      "email": "test202@netomi.com",
+      "uuid": "eba8eb50-b6a1-11ee-b993-973c98e75cb9",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 4,
+        "name": "Studio AI Agent Admin"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 36,
+      "orgId": 1,
+      "firstName": "test23",
+      "lastName": "user23",
+      "email": "test23@netomi.com",
+      "uuid": "b4a1ce80-b8f7-11ee-bc74-8f6ab7868227",
+      "active": 1
+    },
+    "org": {
+      "id": 1,
+      "name": "Netomi",
+      "type": "Provider",
+      "settings": {
+        "logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+        "approvedDomains": [
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 4,
+        "name": "Studio AI Agent Admin"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 39,
+      "orgId": 30,
+      "firstName": "Acme",
+      "lastName": "Analyst",
+      "email": "acme.analyst@acme.com",
+      "uuid": "f4f45440-c6d9-11ee-935d-69abaf84e59d",
+      "active": 1
+    },
+    "org": {
+      "id": 30,
+      "name": "Acme",
+      "type": "Client",
+      "settings": {
+        "logoUrl": "http://acme.netomi.com/logo.svg",
+        "approvedDomains": [
+          "acme.com",
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 5,
+        "name": "Studio AI Agent Analyst"
+      }
+    ]
+  },
+  {
+    "user": {
+      "id": 40,
+      "orgId": 30,
+      "firstName": "Acme",
+      "lastName": "Observer",
+      "email": "acme.observer@acme.com",
+      "uuid": "08691a60-c6da-11ee-935d-69abaf84e59d",
+      "active": 1
+    },
+    "org": {
+      "id": 30,
+      "name": "Acme",
+      "type": "Client",
+      "settings": {
+        "logoUrl": "http://acme.netomi.com/logo.svg",
+        "approvedDomains": [
+          "acme.com",
+          "netomi.com"
+        ]
+      },
+      "active": 1
+    },
+    "role": [
+      {
+        "id": 6,
+        "name": "Studio AI Agent Observer"
+      }
+    ]
+  }
+]

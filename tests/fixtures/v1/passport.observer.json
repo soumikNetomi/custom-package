@@ -1,0 +1,115 @@
+{
+	"_meta": {
+		"url": "/api/passport-user",
+		"purpose": "Find currently logged in user",
+		"successMessage": "Found a valid currently logged in User",
+		"status": 200,
+		"requestorId": "d0629c10-aeae-11ee-b08e-93f000c7964e",
+		"traceId": "db977a7b-12ba-446b-b2a6-abb63ef86889",
+		"requestTime": "2024-09-19T03:05:10.647Z",
+		"timeTakenMs": 104,
+		"isError": false
+	},
+	"payload": {
+		"id": 32,
+		"orgId": 1,
+		"firstName": "Passport",
+		"lastName": "Observer",
+		"email": "passport.observer@netomi.com",
+		"uuid": "d0629c10-aeae-11ee-b08e-93f000c7964e",
+		"active": 1,
+		"createdAt": "2024-01-09T11:24:41.000Z",
+		"updatedAt": "2024-08-29T13:18:50.000Z",
+		"org": {
+			"id": 1,
+			"name": "Netomi",
+			"type": "Provider",
+			"ssoConfigId": 1,
+			"settings": {
+				"logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+				"orgDomains": [
+					"netomi.com",
+					"gmail.com"
+				],
+				"approvedDomains": [
+					"netomi.com",
+					"gmail.com",
+					"netomi.org",
+					"netomi-ai.com"
+				]
+			},
+			"active": 1
+		},
+		"roles": [
+			{
+				"id": 7,
+				"name": "AI Agent Observer",
+				"description": "Studio AI Agent Observer, with Read only permissions",
+				"tags": "Studio,AIAgent,Default,Observer",
+				"active": 1,
+				"userRoles": [
+					{
+						"id": 2574,
+						"userId": 32,
+						"uuid": "d0629c10-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 7,
+						"orgId": 1,
+						"orgDivisionId": 5,
+						"active": 1,
+						"botId": "f5dfabfb-ff6d-4841-816e-00e53191db6f",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					}
+				],
+				"policies": [
+					{
+						"id": 7,
+						"name": "studio/bots/bot-observer",
+						"description": "Allows Readonly access to Bots",
+						"version": "2023-07-27",
+						"policy": {
+							"version": "2023-07-27",
+							"statements": [
+								{
+									"name": "observer-allow-views",
+									"allow": {
+										"actions": [
+											"Read*",
+											"View*"
+										],
+										"resources": [
+											"studio/*"
+										]
+									},
+									"resourceFormat": "$product/$pod/$feature"
+								},
+								{
+									"deny": {
+										"actions": [
+											"ViewPreferences",
+											"ViewTeam",
+											"ViewAccount",
+											"ViewUserProfile"
+										],
+										"resources": [
+											"studio/settings"
+										]
+									},
+									"name": "deny-settings-prefs",
+									"resourceFormat": "$product/$pod/$feature"
+								}
+							]
+						}
+					}
+				]
+			}
+		],
+		"permittedOrgs": [
+			1
+		],
+		"traceId": "db977a7b-12ba-446b-b2a6-abb63ef86889",
+		"defaultBotId": "f5dfabfb-ff6d-4841-816e-00e53191db6f"
+	}
+}

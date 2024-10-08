@@ -1,0 +1,451 @@
+{
+	"_meta": {
+		"url": "/api/passport-user",
+		"purpose": "Find currently logged in user",
+		"successMessage": "Found a valid currently logged in User",
+		"status": 200,
+		"requestorId": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+		"traceId": "a8d89725-5e67-4aa6-9427-4ed3a967fe0b",
+		"requestTime": "2024-09-19T03:03:51.642Z",
+		"timeTakenMs": 340,
+		"isError": false
+	},
+	"payload": {
+		"id": 29,
+		"orgId": 1,
+		"firstName": "Passport",
+		"lastName": "Support",
+		"email": "passport.support@netomi.com",
+		"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+		"active": 1,
+		"createdAt": "2024-01-09T11:24:03.000Z",
+		"updatedAt": "2024-07-13T01:06:17.000Z",
+		"org": {
+			"id": 1,
+			"name": "Netomi",
+			"type": "Provider",
+			"ssoConfigId": 1,
+			"settings": {
+				"logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+				"orgDomains": [
+					"netomi.com",
+					"gmail.com"
+				],
+				"approvedDomains": [
+					"netomi.com",
+					"gmail.com",
+					"netomi.org",
+					"netomi-ai.com"
+				]
+			},
+			"active": 1
+		},
+		"roles": [
+			{
+				"id": 6,
+				"name": "AI Agent Analyst",
+				"description": "AI Agent Analyst user has limited access to update an Agent. Equal to BotUser access",
+				"tags": "Studio,AIAgent,Analyst",
+				"active": 1,
+				"userRoles": [
+					{
+						"id": 1552,
+						"userId": 29,
+						"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": 4,
+						"active": 1,
+						"botId": "05dbfbf3-9c4b-4211-8ad3-d2a27bc33014",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 1553,
+						"userId": 29,
+						"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": 4,
+						"active": 1,
+						"botId": "377c1bf7-2a78-42bf-8c0d-7689146b58f3",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					}
+				],
+				"policies": [
+					{
+						"id": 6,
+						"name": "studio/bots/bot-analyst",
+						"description": "Allows access to Bots as a Bot Analyst",
+						"version": "2023-07-27",
+						"policy": {
+							"version": "2023-07-27",
+							"statements": [
+								{
+									"deny": {
+										"actions": [
+											"CreateAiAgent",
+											"CloneAiAgent",
+											"UpdateAiAgent",
+											"CreateUser",
+											"UpdateUser",
+											"ViewPreferences",
+											"ViewHomeIcon",
+											"ViewAccount",
+											"ViewUserProfile",
+											"ViewTeam",
+											"UpdateAccount",
+											"CreateAccount"
+										],
+										"resources": [
+											"studio/ai-*",
+											"studio/integration-builder",
+											"studio/settings",
+											"studio/bots"
+										]
+									},
+									"name": "studio-bot-analyst",
+									"allow": {
+										"actions": [
+											"Create*",
+											"Update*",
+											"Read*",
+											"View*",
+											"Clone*",
+											"Import*",
+											"Export*",
+											"Upload*",
+											"Download*",
+											"Delete*",
+											"DeployIBRecipe"
+										],
+										"resources": [
+											"studio/*/*"
+										]
+									},
+									"resourceFormat": "$product/$pod/$feature"
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"id": 5,
+				"name": "AI Agent Admin",
+				"description": "AI Agent Admin can manage that particular agent. Equal to BotAdmin access",
+				"tags": "Studio,AIAgent,AIAgentAdmin",
+				"active": 1,
+				"userRoles": [
+					{
+						"id": 1549,
+						"userId": 29,
+						"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 5,
+						"orgId": 1,
+						"orgDivisionId": 5,
+						"active": 1,
+						"botId": "52973459-cc11-4d93-826b-3d8df15ef21d",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 1554,
+						"userId": 29,
+						"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 5,
+						"orgId": 1,
+						"orgDivisionId": 4,
+						"active": 1,
+						"botId": "f9d79b7a-f3d1-4855-9b51-c74d00c82bcc",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 292,
+						"userId": 29,
+						"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 5,
+						"orgId": 14,
+						"orgDivisionId": 18,
+						"active": 1,
+						"botId": "a6b37064-c06a-4a45-a900-b2c379be4fc6",
+						"org": {
+							"id": 14,
+							"name": "DraftKings"
+						}
+					}
+				],
+				"policies": [
+					{
+						"id": 5,
+						"name": "studio/bots/bot-admin",
+						"description": "Allows access to Bots as a Bot Admin",
+						"version": "2023-07-27",
+						"policy": {
+							"version": "2023-07-27",
+							"statements": [
+								{
+									"deny": {
+										"actions": [
+											"CreateAiAgent",
+											"CloneAiAgent",
+											"CreateUser",
+											"ViewPreferences",
+											"ViewHomeIcon",
+											"ViewAccount",
+											"ViewUserProfile",
+											"ViewTeam",
+											"UpdateAccount",
+											"CreateAccount"
+										],
+										"resources": [
+											"studio/ai-*",
+											"studio/settings",
+											"studio/bots"
+										]
+									},
+									"name": "studio-bot-admin",
+									"allow": {
+										"actions": [
+											"Create*",
+											"Update*",
+											"Read*",
+											"View*",
+											"Clone*",
+											"Delete*",
+											"Import*",
+											"Export*",
+											"Upload*",
+											"Download*",
+											"Deploy*"
+										],
+										"resources": [
+											"studio/*/*"
+										]
+									},
+									"resourceFormat": "$product/$pod/$feature"
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"id": 4,
+				"name": "Netomi Support",
+				"description": "Netomi Support Role all Studio features, applicable only to the bots to which an User has this Role",
+				"tags": "Studio,AIAgent,Support",
+				"active": 1,
+				"userRoles": [
+					{
+						"id": 380,
+						"userId": 29,
+						"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 4,
+						"orgId": 1,
+						"orgDivisionId": 5,
+						"active": 1,
+						"botId": "68a8e494-5615-42cf-9fc5-df62b7064bea",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 485,
+						"userId": 29,
+						"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 4,
+						"orgId": 1,
+						"orgDivisionId": 2,
+						"active": 1,
+						"botId": "b32135db-dca9-42ff-8694-a2c746c9c9c7",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 133,
+						"userId": 29,
+						"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 4,
+						"orgId": 1,
+						"orgDivisionId": 5,
+						"active": 1,
+						"botId": "da4d6579-4114-40de-8c68-47f03fe7cfa5",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 132,
+						"userId": 29,
+						"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 4,
+						"orgId": 1,
+						"orgDivisionId": 4,
+						"active": 1,
+						"botId": "f77c51c2-374f-43d6-b261-5d55d25d76cf",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 489,
+						"userId": 29,
+						"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 4,
+						"orgId": 14,
+						"orgDivisionId": 18,
+						"active": 1,
+						"botId": "7ca85b24-b995-41df-9069-3416bc821de1",
+						"org": {
+							"id": 14,
+							"name": "DraftKings"
+						}
+					}
+				],
+				"policies": [
+					{
+						"id": 4,
+						"name": "studio/bots/netomi-support",
+						"description": "Allows access to Bots as a Netomi Support Role",
+						"version": "2023-07-27",
+						"policy": {
+							"version": "2023-07-27",
+							"statements": [
+								{
+									"name": "support-allow-all",
+									"allow": {
+										"actions": [
+											"Create*",
+											"Update*",
+											"Read*",
+											"View*",
+											"Clone*",
+											"Delete*",
+											"Import*",
+											"Export*",
+											"Upload*",
+											"Download*",
+											"Deploy*"
+										],
+										"resources": [
+											"studio/*"
+										]
+									},
+									"resourceFormat": "$product/$pod/$feature"
+								},
+								{
+									"deny": {
+										"actions": [
+											"CreateAiAgent",
+											"CloneAiAgent",
+											"CreateUser",
+											"ViewHomeIcon",
+											"ViewAccount",
+											"ViewUserProfile",
+											"ViewTeam",
+											"UpdateAccount",
+											"CreateAccount"
+										],
+										"resources": [
+											"studio/ai-*",
+											"studio/settings",
+											"studio/bots"
+										]
+									},
+									"name": "deny-create-agents",
+									"resourceFormat": "$product/$pod/$feature"
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"id": 7,
+				"name": "AI Agent Observer",
+				"description": "Studio AI Agent Observer, with Read only permissions",
+				"tags": "Studio,AIAgent,Default,Observer",
+				"active": 1,
+				"userRoles": [
+					{
+						"id": 134,
+						"userId": 29,
+						"uuid": "bac8d310-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 7,
+						"orgId": 1,
+						"orgDivisionId": 5,
+						"active": 1,
+						"botId": "91b53b18-72df-44b3-99f9-6ad7b0b54bc0",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					}
+				],
+				"policies": [
+					{
+						"id": 7,
+						"name": "studio/bots/bot-observer",
+						"description": "Allows Readonly access to Bots",
+						"version": "2023-07-27",
+						"policy": {
+							"version": "2023-07-27",
+							"statements": [
+								{
+									"name": "observer-allow-views",
+									"allow": {
+										"actions": [
+											"Read*",
+											"View*"
+										],
+										"resources": [
+											"studio/*"
+										]
+									},
+									"resourceFormat": "$product/$pod/$feature"
+								},
+								{
+									"deny": {
+										"actions": [
+											"ViewPreferences",
+											"ViewTeam",
+											"ViewAccount",
+											"ViewUserProfile"
+										],
+										"resources": [
+											"studio/settings"
+										]
+									},
+									"name": "deny-settings-prefs",
+									"resourceFormat": "$product/$pod/$feature"
+								}
+							]
+						}
+					}
+				]
+			}
+		],
+		"permittedOrgs": [
+			1,
+			14
+		],
+		"traceId": "a8d89725-5e67-4aa6-9427-4ed3a967fe0b",
+		"defaultBotId": "b32135db-dca9-42ff-8694-a2c746c9c9c7"
+	}
+}

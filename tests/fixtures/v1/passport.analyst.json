@@ -1,0 +1,340 @@
+{
+	"_meta": {
+		"url": "/api/passport-user",
+		"purpose": "Find currently logged in user",
+		"successMessage": "Found a valid currently logged in User",
+		"status": 200,
+		"requestorId": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+		"traceId": "381b9e46-1d4d-45f2-bf44-20814a20d7d9",
+		"requestTime": "2024-09-19T03:04:43.512Z",
+		"timeTakenMs": 596,
+		"isError": false
+	},
+	"payload": {
+		"id": 31,
+		"orgId": 1,
+		"firstName": "passport",
+		"lastName": "analyst",
+		"email": "passport.analyst@netomi.com",
+		"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+		"active": 1,
+		"createdAt": "2024-01-09T11:24:28.000Z",
+		"updatedAt": "2024-08-29T13:19:03.000Z",
+		"org": {
+			"id": 1,
+			"name": "Netomi",
+			"type": "Provider",
+			"ssoConfigId": 1,
+			"settings": {
+				"logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+				"orgDomains": [
+					"netomi.com",
+					"gmail.com"
+				],
+				"approvedDomains": [
+					"netomi.com",
+					"gmail.com",
+					"netomi.org",
+					"netomi-ai.com"
+				]
+			},
+			"active": 1
+		},
+		"roles": [
+			{
+				"id": 6,
+				"name": "AI Agent Analyst",
+				"description": "AI Agent Analyst user has limited access to update an Agent. Equal to BotUser access",
+				"tags": "Studio,AIAgent,Analyst",
+				"active": 1,
+				"userRoles": [
+					{
+						"id": 280,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "1f7b116c-f780-4c58-9178-669e5531f914",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 2184,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "23265eca-016b-4f5c-bcd2-71150ee8babc",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 283,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "32963f87-9bfb-442a-8e7b-f7b46745b41b",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 2182,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "377c1bf7-2a78-42bf-8c0d-7689146b58f3",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 2188,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "39d53ada-ff49-4363-ac53-a831d22e27b8",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 2546,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": 5,
+						"active": 1,
+						"botId": "68a8e494-5615-42cf-9fc5-df62b7064bea",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 2547,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": 5,
+						"active": 1,
+						"botId": "8ce44108-c996-43d6-95e8-591b954dca9a",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 281,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "91b53b18-72df-44b3-99f9-6ad7b0b54bc0",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 2435,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "96fcfc5a-9c6a-466e-88ae-a1b533cbc6aa",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 1492,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "afb4dae1-b3ea-4c2d-8a3d-bf4a8eb2554a",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 2462,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": 5,
+						"active": 1,
+						"botId": "b04de9cf-821d-4759-b96f-43b6fc135c98",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 282,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "b372b9af-f53a-41ac-beb6-6fcd42f76f12",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 2553,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": 5,
+						"active": 1,
+						"botId": "ba197813-ba10-42c7-b9f6-d914d45dba4d",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 1496,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "de49fc2b-d782-4132-8308-a08e603cb4fb",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 1494,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "f77c51c2-374f-43d6-b261-5d55d25d76cf",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					},
+					{
+						"id": 1491,
+						"userId": 31,
+						"uuid": "ca3de2e0-aeae-11ee-b08e-93f000c7964e",
+						"roleId": 6,
+						"orgId": 1,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": "f9d79b7a-f3d1-4855-9b51-c74d00c82bcc",
+						"org": {
+							"id": 1,
+							"name": "Netomi"
+						}
+					}
+				],
+				"policies": [
+					{
+						"id": 6,
+						"name": "studio/bots/bot-analyst",
+						"description": "Allows access to Bots as a Bot Analyst",
+						"version": "2023-07-27",
+						"policy": {
+							"version": "2023-07-27",
+							"statements": [
+								{
+									"deny": {
+										"actions": [
+											"CreateAiAgent",
+											"CloneAiAgent",
+											"CreateUser",
+											"UpdateUser",
+											"ViewPreferences",
+											"ViewHomeIcon",
+											"ViewAccount",
+											"ViewUserProfile",
+											"ViewTeam",
+											"UpdateAccount",
+											"DeployIBRecipe",
+											"CreateAccount"
+										],
+										"resources": [
+											"studio/ai-agent",
+											"studio/integration-builder",
+											"studio/settings",
+											"studio/bots"
+										]
+									},
+									"name": "studio-bot-analyst",
+									"allow": {
+										"actions": [
+											"Create*",
+											"Update*",
+											"Read*",
+											"View*",
+											"Clone*",
+											"Import*",
+											"Export*",
+											"Upload*",
+											"Download*",
+											"Delete*"
+										],
+										"resources": [
+											"studio/*/*"
+										]
+									},
+									"resourceFormat": "$product/$pod/$feature"
+								}
+							]
+						}
+					}
+				]
+			}
+		],
+		"permittedOrgs": [
+			1
+		],
+		"traceId": "381b9e46-1d4d-45f2-bf44-20814a20d7d9",
+		"defaultBotId": "8ce44108-c996-43d6-95e8-591b954dca9a"
+	}
+}

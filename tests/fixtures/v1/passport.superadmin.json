@@ -1,0 +1,119 @@
+{
+	"_meta": {
+		"url": "/api/passport-user",
+		"purpose": "Find currently logged in user",
+		"successMessage": "Found a valid currently logged in User",
+		"status": 200,
+		"requestorId": "91b19160-aeae-11ee-9446-99d2f0c5d696",
+		"traceId": "cea362ae-7004-42e3-affb-05ae86c195cd",
+		"requestTime": "2024-09-19T03:02:32.454Z",
+		"timeTakenMs": 139,
+		"isError": false
+	},
+	"payload": {
+		"id": 27,
+		"orgId": 1,
+		"firstName": "Passport",
+		"lastName": "SuperAdmin",
+		"email": "passport.superadmin@netomi.com",
+		"uuid": "91b19160-aeae-11ee-9446-99d2f0c5d696",
+		"active": 1,
+		"createdAt": "2024-01-09T11:21:25.000Z",
+		"updatedAt": "2024-06-18T11:57:38.000Z",
+		"org": {
+			"id": 1,
+			"name": "Netomi",
+			"type": "Provider",
+			"ssoConfigId": 1,
+			"settings": {
+				"logoUrl": "https://clustering-files.s3.amazonaws.com/1e9c824e-0a1b-48e2-8946-14ef15d61467.png",
+				"orgDomains": [
+					"netomi.com",
+					"gmail.com"
+				],
+				"approvedDomains": [
+					"netomi.com",
+					"gmail.com",
+					"netomi.org",
+					"netomi-ai.com"
+				]
+			},
+			"active": 1
+		},
+		"roles": [
+			{
+				"id": 1,
+				"name": "Studio Super Admin",
+				"description": "SuperAdmin for all Studio features. Equal to Sales access",
+				"tags": "Studio,SuperAdmin",
+				"active": 1,
+				"userRoles": [
+					{
+						"id": 250,
+						"userId": 27,
+						"uuid": "91b19160-aeae-11ee-9446-99d2f0c5d696",
+						"roleId": 1,
+						"orgId": null,
+						"orgDivisionId": null,
+						"active": 1,
+						"botId": null,
+						"org": null
+					}
+				],
+				"policies": [
+					{
+						"id": 1,
+						"name": "studio/all/super-admin",
+						"description": "Allows access to all Studio features",
+						"version": "2023-07-27",
+						"policy": {
+							"version": "2023-07-27",
+							"statements": [
+								{
+									"deny": {
+										"actions": [
+											"ViewHomeIcon",
+											"ViewAccount",
+											"ViewUserProfile",
+											"ViewTeam",
+											"UpdateAccount",
+											"CreateAccount"
+										],
+										"resources": [
+											"studio/bots",
+											"studio/settings"
+										]
+									},
+									"name": "studio-super-admin",
+									"allow": {
+										"actions": [
+											"SuperAdmin",
+											"Create*",
+											"Update*",
+											"Read*",
+											"View*",
+											"Clone*",
+											"Delete*",
+											"Import*",
+											"Export*",
+											"Upload*",
+											"Download*",
+											"Deploy*"
+										],
+										"resources": [
+											"studio/*/*"
+										]
+									},
+									"resourceFormat": "$product/$pod/$feature"
+								}
+							]
+						}
+					}
+				]
+			}
+		],
+		"permittedOrgs": [],
+		"traceId": "cea362ae-7004-42e3-affb-05ae86c195cd",
+		"defaultBotId": "cf679e6b-4c5b-4b71-b51f-e57a3ff78e27"
+	}
+}
